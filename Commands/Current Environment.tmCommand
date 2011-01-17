@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>require_cmd sc3c
+export SC_INTERPRET_TEXT="currentEnvironment"
+sc3c -x SC_INTERPRET_TEXT;</string>
+	<key>input</key>
+	<string>none</string>
+	<key>name</key>
+	<string>Current Environment</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>tabTrigger</key>
+	<string>ce</string>
+	<key>uuid</key>
+	<string>C7B4E800-33FF-46B2-AC69-648F8028E4E8</string>
+</dict>
+</plist>

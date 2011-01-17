@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{ ${2:|${1:arg=value}|}
-	$3
-</string>
+	<string>s.plotTree</string>
 	<key>name</key>
-	<string>Create function</string>
+	<string>s.plotTree</string>
 	<key>scope</key>
 	<string>source.supercollider</string>
 	<key>tabTrigger</key>
-	<string>{</string>
+	<string>s.p</string>
 	<key>uuid</key>
-	<string>C56D8EA0-215E-438C-B039-23830645FFDA</string>
+	<string>1CC9F07D-D317-443A-8A46-0B0B637D280C</string>
 </dict>
 </plist>

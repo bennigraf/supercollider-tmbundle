@@ -3,16 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{ ${2:|${1:arg=value}|}
-	$3
-</string>
+	<string>${10:~${1:snd}[${2:1}] = \set -&gt; Pbind(
+	${3:\trig, 1,}
+	${4:\freq, ${5:Pseq([${6:1}], inf)},}
+	${7:\dur, ${8:Pseq([${9:1}], inf)}}
+)}</string>
 	<key>name</key>
-	<string>Create function</string>
+	<string>Filter: Set</string>
 	<key>scope</key>
 	<string>source.supercollider</string>
 	<key>tabTrigger</key>
-	<string>{</string>
+	<string>fset</string>
 	<key>uuid</key>
-	<string>C56D8EA0-215E-438C-B039-23830645FFDA</string>
+	<string>E5C48288-2B8F-4318-B430-682CCC07C27A</string>
 </dict>
 </plist>

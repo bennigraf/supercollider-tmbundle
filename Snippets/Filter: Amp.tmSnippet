@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{ ${2:|${1:arg=value}|}
-	$3
-</string>
+	<string>${4:~${1:snd}[${2:60}] = \filter -&gt; { |in|
+	in * ${3:1.2};
+\}}</string>
 	<key>name</key>
-	<string>Create function</string>
+	<string>Filter: Amp</string>
 	<key>scope</key>
 	<string>source.supercollider</string>
 	<key>tabTrigger</key>
-	<string>{</string>
+	<string>famp</string>
 	<key>uuid</key>
-	<string>C56D8EA0-215E-438C-B039-23830645FFDA</string>
+	<string>D7CC0BBC-C4B0-4612-AA3C-67D33801469A</string>
 </dict>
 </plist>

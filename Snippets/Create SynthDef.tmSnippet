@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SynthDef(\\${1:foobar}) { |${2:out=0}$3|
+	<string>(
+SynthDef(\\${1:foobar}, { |${2:out=0}$3|
 	$0
-}.play(s);</string>
+}).${4:add};
+)</string>
 	<key>name</key>
-	<string>Create SynthDef</string>
+	<string>sdef</string>
 	<key>scope</key>
 	<string>source.supercollider</string>
 	<key>tabTrigger</key>

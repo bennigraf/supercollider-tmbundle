@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{ ${2:|${1:arg=value}|}
-	$3
-</string>
+	<string>${5:~${1:snd}[${2:40}] = \filter -&gt; { |in|
+	${3:R}LPF.ar(in, ${4:3000});		// note: RLPF takes q as 3rd arg
+\}}</string>
 	<key>name</key>
-	<string>Create function</string>
+	<string>Filter: LPF</string>
 	<key>scope</key>
 	<string>source.supercollider</string>
 	<key>tabTrigger</key>
-	<string>{</string>
+	<string>flpf</string>
 	<key>uuid</key>
-	<string>C56D8EA0-215E-438C-B039-23830645FFDA</string>
+	<string>1C1809CD-1C69-4800-84E1-537C61002CDB</string>
 </dict>
 </plist>

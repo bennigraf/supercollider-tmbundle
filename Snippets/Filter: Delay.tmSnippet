@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{ ${2:|${1:arg=value}|}
-	$3
-</string>
+	<string>${6:~${1:snd}[${2:60}] = \filter -&gt; { |in|
+	CombC.ar(in, ${3:2}, ${4:0.4}, ${5:1.7});		// MaxDelay, Delay, Decay
+\}}</string>
 	<key>name</key>
-	<string>Create function</string>
+	<string>Filter: Delay</string>
 	<key>scope</key>
 	<string>source.supercollider</string>
 	<key>tabTrigger</key>
-	<string>{</string>
+	<string>fdel</string>
 	<key>uuid</key>
-	<string>C56D8EA0-215E-438C-B039-23830645FFDA</string>
+	<string>A5B7E56B-7793-4E6B-9A2F-9E2CABE34076</string>
 </dict>
 </plist>

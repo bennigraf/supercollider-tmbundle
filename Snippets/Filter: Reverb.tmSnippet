@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{ ${2:|${1:arg=value}|}
-	$3
-</string>
+	<string>${6:~${1:snd}[${2:20}] = \filter -&gt; { |in|
+	FreeVerb.ar(in, ${3:0.6}, ${4:0.4}, ${5:0.4});		// Mix, Room, Damp
+\}}</string>
 	<key>name</key>
-	<string>Create function</string>
+	<string>Filter: Reverb</string>
 	<key>scope</key>
 	<string>source.supercollider</string>
 	<key>tabTrigger</key>
-	<string>{</string>
+	<string>frev</string>
 	<key>uuid</key>
-	<string>C56D8EA0-215E-438C-B039-23830645FFDA</string>
+	<string>AD748184-F7EF-4F2B-B54B-F952C3AF7A57</string>
 </dict>
 </plist>

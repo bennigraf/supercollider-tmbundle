@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{ ${2:|${1:arg=value}|}
-	$3
-</string>
+	<string>${4:~${1:snd}[${2:40}] = \filter -&gt; { |in|
+	in.round(0.5 ** ${3:16});
+\}}</string>
 	<key>name</key>
-	<string>Create function</string>
+	<string>Filter: Bitcrusher</string>
 	<key>scope</key>
 	<string>source.supercollider</string>
 	<key>tabTrigger</key>
-	<string>{</string>
+	<string>fbit</string>
 	<key>uuid</key>
-	<string>C56D8EA0-215E-438C-B039-23830645FFDA</string>
+	<string>0EFE90FC-8A6F-4EC1-ACAB-65E68F5FAE35</string>
 </dict>
 </plist>
